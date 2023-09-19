@@ -1,0 +1,343 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar-nav{
+    padding-right: 50px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 19px;
+
+}
+
+#sepet{
+    padding-right: 0px;
+}
+
+.navbar-nav .nav-link img{
+    height: 20%;
+    width: 20%;
+    padding-bottom: 13px;
+}
+
+#dropdownMenuLink{
+    padding-top: 23px;
+}
+
+.container {
+    flex: 1;
+}
+
+#kitap_ekle{
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-link.active{
+    font-weight: bold;
+}
+
+#navbar.navbar{
+    background-color: lightblue;
+    align-items: center;
+    height: 100px;
+
+}
+
+@media (max-width: 991.20px) {
+    #navbar.navbar {
+        height: 100%;
+    }
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: 80px;
+    padding-bottom: 10px;
+    float: left;
+    padding-left: 20px;
+
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 300px;
+ 
+}
+
+#tur {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+#tur p {
+    font-size: 17px;
+    text-align: center;
+
+}
+
+#tur :hover {
+    text-decoration: underline;
+}
+
+#tur img {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+
+}
+
+#slogan {
+    font-size: 19px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: lightblue;
+    border: 2px solid black;
+
+}
+
+#aciklama_bilgiler{
+    padding-top: 20px;
+}
+
+#aciklama {
+    float: left;
+    font-size: 19px;
+    height: 20%;
+    
+
+}
+
+#aciklama img {
+    width: 10%;
+    height: 30%;
+    float: left;
+
+}
+
+#bilgiler {
+    font-size: 17px;
+    height: 20%;
+
+}
+
+#harita {
+    width: 100%;
+    height: 300px;
+    border: 0;
+
+}
+
+#adres {
+    font-size: 18px;
+    padding-top: 15%;
+
+}
+
+#iletisim-formu {
+    font-size: 15px;
+    
+}
+
+.baslik{
+    text-align: center;
+    font-size: 25px;
+}
+
+#id img{
+    width: 100%;
+    height: 100%;
+}
+
+#kitap{
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+
+}
+
+#govde{
+    height: 230px;
+}
+
+.resim{
+    max-width:80%;
+    height: 230px;
+}
+
+#kitap p{
+    font-size: 16px;
+}
+
+#kitap_adi{
+    font-weight: bold;
+    
+}
+
+.card #fiyat{
+    text-decoration: underline;
+}
+
+#kitap_adi{
+    font-size: 16px;
+}
+
+#sepet_buton{
+    font-size: 18px;
+    text-align: center;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+#sepet_buton :hover {
+    text-decoration: underline;
+}
+
+#sil_btn {
+    float: right;
+    font-size: 15px;
+}
+
+#ekle_btn{
+    font-size: 15px;
+}
+
+.message{
+    font-size: 20px;
+} 
+
+.container p.uyari{
+    font-size: 20px;
+}
+
+.footer {
+    text-align: left;
+    color: black;
+    font-size: 15px; 
+    padding: 20px;
+    background-color: white;
+}
+
+.dropdown-menu a.dropdown-item{
+    font-size: 17px;
+}
+
+.nav-pills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-pills .nav-link {
+    font-size: 14px;
+    text-align: center;
+    color: black;
+}
+
+.nav-pills .nav-item .nav-link.active {
+    background-color: lightblue;
+    color: black;
+}
+.nav-pills .nav-item .nav-link:hover {
+    color: black;
+}
+
+.sepet_toplam{
+    font-size: 20px;
+    color: black;
+}
+
+.sepet_fiyat{
+    font-size: 20px;
+    color: red;
+}
+
+.row_right{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 14%;
+
+}
+
+.kitap_miktar{
+    /* text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 50%; */
+    margin-left: 10px;
+}
+
+.kaldir{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-right: 100px;
+}
+
+.kaldir #font{
+    font-size: 17px;
+    
+}
+
+.toplam_fiyat{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+#kitap_yazari, #yayinevi{
+    font-size: 14px;
+}
+
+#fiyat{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.menu{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+#adres_odeme, #onayla{
+    font-size: 20px;
+    text-align: center;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.adres_form, .odeme_form, .kart_form{
+    font-size: 17px;
+}
+
+#kartBilgileriFormu{
+    display: none;
+}
